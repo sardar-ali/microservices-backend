@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/logs/**", "src/uploads/**"],
+  "ext": "js,json",
+  "exec": "node src/server.js",
+  "legacyWatch": true
+}
