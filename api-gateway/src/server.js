@@ -92,7 +92,6 @@ app.use(
     ...proxyOption,
     // change request data here like header options etc
     proxyReqOptDecorator: function (proxyReqOpts, srcReq) {
-      // console.log("add this now");
       // you can update headers
       proxyReqOpts.headers["Content-Type"] = "application/json";
       proxyReqOpts.headers["x-user-id"] = srcReq.user.user._id;
@@ -107,6 +106,31 @@ app.use(
   })
 );
 
+//setting up proxy for our media services
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOption,
+    // change request data here like header options etc
+    proxyReqOptDecorator: function (proxyReqOpts, srcReq) {
+      // you can update headers
+console.log("1::")
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.user._id;
+      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from the media service: ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+    parseReqBody: false,
+  })
+);
 app.use(errorHandler);
 
 app.listen(PORT, () => {
@@ -116,6 +140,9 @@ app.listen(PORT, () => {
   );
   logger.info(
     `Post Service  is running on port ${process.env.POST_SERVICE_URL}`
+  );
+  logger.info(
+    `Media Service  is running on port ${process.env.MEDIA_SERVICE_URL}`
   );
   logger.info(`Redis Url is  ${process.env.REDIS_URL}`);
 });

@@ -20,6 +20,8 @@ const uploadMediaToCloudinary = (file) => {
       }
     );
 
-    uploadStream.end(uploadStream);
+    uploadStream.end(file.buffer);
   });
 };
+
+module.exports = { uploadMediaToCloudinary };

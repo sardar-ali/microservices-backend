@@ -973,3 +973,25 @@
 {"level":"info","message":"Recieved GET request to /v1/posts/post/687f480673d7b9c0b20dd272","service":"api-gateway","timestamp":"2025-07-22T13:22:12.280Z"}
 {"level":"info","message":"request body undefined","service":"api-gateway","timestamp":"2025-07-22T13:22:12.281Z"}
 {"level":"info","message":"Response received from the post service: 404","service":"api-gateway","timestamp":"2025-07-22T13:22:12.365Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-07-24T09:02:55.417Z"}
+{"level":"info","message":"Auth Service  is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-07-24T09:02:55.421Z"}
+{"level":"info","message":"Post Service  is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-07-24T09:02:55.421Z"}
+{"level":"info","message":"Media Service  is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-07-24T09:02:55.421Z"}
+{"level":"info","message":"Redis Url is  redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-24T09:02:55.422Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-07-24T10:44:08.667Z"}
+{"level":"info","message":"request body [object Object]","service":"api-gateway","timestamp":"2025-07-24T10:44:08.668Z"}
+{"level":"info","message":"Response received from the auth service: 201","service":"api-gateway","timestamp":"2025-07-24T10:44:09.762Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-07-24T10:45:35.251Z"}
+{"level":"info","message":"request body undefined","service":"api-gateway","timestamp":"2025-07-24T10:45:35.252Z"}
+{"level":"info","message":"Response received from the media service: 404","service":"api-gateway","timestamp":"2025-07-24T10:45:35.282Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload-media","service":"api-gateway","timestamp":"2025-07-24T10:46:07.046Z"}
+{"level":"info","message":"request body undefined","service":"api-gateway","timestamp":"2025-07-24T10:46:07.046Z"}
+{"level":"info","message":"Response received from the media service: 500","service":"api-gateway","timestamp":"2025-07-24T10:46:09.576Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-07-24T10:47:18.214Z"}
+{"level":"info","message":"Auth Service  is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-07-24T10:47:18.218Z"}
+{"level":"info","message":"Post Service  is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-07-24T10:47:18.218Z"}
+{"level":"info","message":"Media Service  is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-07-24T10:47:18.218Z"}
+{"level":"info","message":"Redis Url is  redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-24T10:47:18.219Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload-media","service":"api-gateway","timestamp":"2025-07-24T10:47:31.997Z"}
+{"level":"info","message":"request body undefined","service":"api-gateway","timestamp":"2025-07-24T10:47:31.997Z"}
+{"level":"info","message":"Response received from the media service: 500","service":"api-gateway","timestamp":"2025-07-24T10:47:34.543Z"}

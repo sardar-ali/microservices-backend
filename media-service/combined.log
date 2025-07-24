@@ -1,0 +1,22 @@
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-07-24T08:35:55.873Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-07-24T08:35:56.416Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-07-24T09:02:35.069Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-07-24T09:02:36.006Z"}
+{"level":"info","message":"Recieved POST request to /api/media/upload","service":"media-service","timestamp":"2025-07-24T10:45:35.272Z"}
+{"level":"info","message":"request body undefined","service":"media-service","timestamp":"2025-07-24T10:45:35.273Z"}
+{"level":"info","message":"Recieved POST request to /api/media/upload-media","service":"media-service","timestamp":"2025-07-24T10:46:07.053Z"}
+{"level":"info","message":"request body undefined","service":"media-service","timestamp":"2025-07-24T10:46:07.054Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-07-24T10:46:07.065Z"}
+{"level":"info","message":"File details name is undefined type is undefined","service":"media-service","timestamp":"2025-07-24T10:46:07.065Z"}
+{"level":"info","message":"uploading to cloudinary start","service":"media-service","timestamp":"2025-07-24T10:46:07.066Z"}
+{"level":"info","message":"Cloudinary upload successfully. public id:b0q81t6xgbha9xweou2u","service":"media-service","timestamp":"2025-07-24T10:46:09.564Z"}
+{"level":"error","message":"Error in uploading media!","service":"media-service","timestamp":"2025-07-24T10:46:09.573Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-07-24T10:47:29.589Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-07-24T10:47:30.188Z"}
+{"level":"info","message":"Recieved POST request to /api/media/upload-media","service":"media-service","timestamp":"2025-07-24T10:47:32.013Z"}
+{"level":"info","message":"request body undefined","service":"media-service","timestamp":"2025-07-24T10:47:32.014Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-07-24T10:47:32.019Z"}
+{"level":"info","message":"File details name is undefined type is undefined","service":"media-service","timestamp":"2025-07-24T10:47:32.020Z"}
+{"level":"info","message":"uploading to cloudinary start","service":"media-service","timestamp":"2025-07-24T10:47:32.020Z"}
+{"level":"info","message":"Cloudinary upload successfully. public id:hxctz6bk7nweumzb4qjx","service":"media-service","timestamp":"2025-07-24T10:47:34.535Z"}
+{"level":"error","message":"Error in uploading media!","service":"media-service","timestamp":"2025-07-24T10:47:34.541Z"}
