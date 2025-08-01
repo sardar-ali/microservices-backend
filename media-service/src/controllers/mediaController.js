@@ -12,22 +12,24 @@ const uploadMedia = async (req, res) => {
         message: "No file found. please try adding a file!",
       });
     }
+    // console.log({ FileBody: req });
 
-    const { orignalName, mimeType, buffer } = req.file;
-    logger.info(`File details name is ${orignalName} type is ${mimeType}`);
+    const { originalname, mimetype, buffer } = req.file;
+    logger.info(`File details name is ${originalname} type is ${mimetype}`);
 
     logger.info("uploading to cloudinary start");
     const cloudinaryUploudResult = await uploadMediaToCloudinary(req.file);
     logger.info(
       `Cloudinary upload successfully. public id:${cloudinaryUploudResult.public_id}`
     );
+
     const newlyCreatedMedia = new Media({
       publicId: cloudinaryUploudResult.public_id,
-      orignalName,
-      mimeType,
+      orignalName: originalname,
+      mimeType: mimetype,
       url: cloudinaryUploudResult.secure_url,
+      userId: req.user._id,
     });
-
     await newlyCreatedMedia.save();
     logger.info("save media in db successfully");
 
@@ -45,4 +47,21 @@ const uploadMedia = async (req, res) => {
   }
 };
 
-module.exports = { uploadMedia };
+const getAllMedia = async (req, res) => {
+  try {
+    const media = await Media.find({});
+    res.status(200).json({
+      success: true,
+      media,
+      message: "Media fetched successfully",
+    });
+  } catch (error) {
+    logger.error("Error in delete media!");
+    return res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+    });
+  }
+};
+
+module.exports = { uploadMedia, getAllMedia };

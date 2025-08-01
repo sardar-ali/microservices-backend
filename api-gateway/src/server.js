@@ -115,7 +115,6 @@ app.use(
     // change request data here like header options etc
     proxyReqOptDecorator: function (proxyReqOpts, srcReq) {
       // you can update headers
-console.log("1::")
       proxyReqOpts.headers["x-user-id"] = srcReq.user.user._id;
       if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
         proxyReqOpts.headers["Content-Type"] = "application/json";

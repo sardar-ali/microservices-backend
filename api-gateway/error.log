@@ -61,3 +61,18 @@
 {"level":"error","message":"Unauthorized request: token not found!","service":"api-gateway","timestamp":"2025-07-22T11:15:20.339Z"}
 {"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-07-22T11:47:45.387Z"}
 {"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-07-22T11:47:47.126Z"}
+{"level":"error","message":"Unauthorized request: token not found!","service":"api-gateway","timestamp":"2025-07-26T20:29:32.143Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-26T20:29:39.760Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-26T20:30:21.712Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-26T20:30:23.454Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-26T20:30:46.680Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-26T20:31:00.303Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-26T20:31:02.288Z"}
+{"level":"error","message":"Proxy error :, TypeError: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-07-29T16:32:08.166Z"}
+{"level":"error","message":"Invalid Token!","service":"api-gateway","timestamp":"2025-07-29T16:33:19.537Z"}
+{"level":"error","message":"Invalid Token!","service":"api-gateway","timestamp":"2025-07-29T16:33:25.492Z"}
+{"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-07-29T16:33:38.643Z"}
+{"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-07-29T16:33:55.834Z"}
+{"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-07-29T16:34:12.340Z"}
+{"level":"error","message":"Invalid Token!","service":"api-gateway","timestamp":"2025-07-30T16:38:40.325Z"}
+{"level":"error","message":"Invalid Token!","service":"api-gateway","timestamp":"2025-07-30T16:57:56.871Z"}
