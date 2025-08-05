@@ -1,0 +1,816 @@
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:12:50.564Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:12:50.599Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:12:50.891Z"}
+{"level":"error","message":"Error in delete media  postId is not defined","service":"post-service","stack":"ReferenceError: postId is not defined\n    at postEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:19:61)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\utils\\rabbitmq.js:33:7\n    at Channel.dispatchMessage (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:302:19)\n    at Connection.mainAccept [as accept] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\connection.js:579:33)","timestamp":"2025-08-03T10:14:33.771Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:14:33.772Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:12.951Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:12.971Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:13.363Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:17.140Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:17.158Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:17.598Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:22.143Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:22.169Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:22.592Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:34.753Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:34.769Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:35.197Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:42.042Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:42.058Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:43.407Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:45.225Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:45.249Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:48.139Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:48.163Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:48.586Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:53.439Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:53.458Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:16:54.805Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:16:54.821Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:16:55.304Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:17:00.367Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:17:00.384Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:17:00.759Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:17:14.902Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:17:14.921Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:17:15.392Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:17:18.833Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:17:18.854Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:17:24.860Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:17:24.892Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:17:25.309Z"}
+{"level":"error","message":"Error in created post  \"[object Object]\" is not valid JSON","service":"post-service","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at postEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:8:47)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\utils\\rabbitmq.js:33:7\n    at Channel.dispatchMessage (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:302:19)","timestamp":"2025-08-03T10:17:45.013Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:17:45.015Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:19:14.443Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:19:14.479Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:19:14.907Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:19:34.418Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:19:34.475Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:19:39.315Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:19:39.343Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:19:43.194Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:19:43.209Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:19:44.936Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:19:59.552Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:19:59.577Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:19:59.986Z"}
+{"level":"info","message":"Processed deletion completed for post","service":"post-service","timestamp":"2025-08-03T10:20:06.904Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:20:06.905Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:21:54.627Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:21:54.655Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:21:55.107Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:21:57.778Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:21:57.793Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:21:58.192Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:22:10.462Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:22:10.486Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:22:10.879Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:22:16.693Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:22:16.712Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:22:18.228Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:22:22.472Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:22:22.582Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:22:23.112Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:22:25.506Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:22:25.539Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:22:25.931Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:22:40.748Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:22:40.771Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:22:41.180Z"}
+{"level":"error","message":"Error in created post  Cannot read properties of undefined (reading 'toString')","service":"post-service","stack":"TypeError: Cannot read properties of undefined (reading 'toString')\n    at postEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:10:50)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\utils\\rabbitmq.js:33:7\n    at Channel.dispatchMessage (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:302:19)\n    at Connection.mainAccept [as accept] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\connection.js:579:33)","timestamp":"2025-08-03T10:22:49.485Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:22:49.488Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:23:18.840Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:23:18.869Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:23:19.335Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:26:08.510Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:26:08.547Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:26:08.979Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:26:21.570Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:26:21.627Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:26:21.983Z"}
+{"level":"info","message":"Processed deletion completed for post","service":"post-service","timestamp":"2025-08-03T10:26:32.212Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:26:32.214Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:26:49.932Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:26:49.954Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:27:03.790Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:27:03.812Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:27:05.016Z"}
+{"level":"info","message":"Processed deletion completed for post","service":"post-service","timestamp":"2025-08-03T10:27:26.880Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:27:26.882Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:33:45.012Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:33:45.029Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:33:45.582Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:33:52.156Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:33:52.176Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:33:52.727Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:33:54.903Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:33:54.931Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:33:55.420Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:33:58.972Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:33:59.021Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:33:59.668Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:34:05.576Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:34:05.600Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:34:06.510Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:34:06.540Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:34:06.999Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:34:08.311Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:34:08.352Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:34:08.808Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:34:13.044Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:34:13.064Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:34:13.720Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:34:29.226Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:34:29.248Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:34:30.002Z"}
+{"level":"error","message":"Error in created post  \"[object Object]\" is not valid JSON","service":"post-service","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at postEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:11:26)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\utils\\rabbitmq.js:33:7\n    at Channel.dispatchMessage (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:302:19)","timestamp":"2025-08-03T10:34:36.943Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:34:36.946Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:35:11.401Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:35:11.420Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:35:11.888Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:35:13.591Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:35:13.612Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:35:14.069Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:36:11.338Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:36:11.355Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:36:11.804Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:36:12.894Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:36:12.911Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:36:13.292Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:36:26.951Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:36:26.971Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:36:27.704Z"}
+{"level":"error","message":"Error in created post  \"[object Object]\" is not valid JSON","service":"post-service","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at postEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:11:26)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\utils\\rabbitmq.js:33:7\n    at Channel.dispatchMessage (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\amqplib\\lib\\channel.js:302:19)","timestamp":"2025-08-03T10:36:39.266Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:36:39.268Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:36:59.843Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:36:59.862Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:00.284Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:10.762Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:10.777Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:12.076Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:14.174Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:14.204Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:14.657Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:30.222Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:30.238Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:30.949Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:36.506Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:36.523Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:36.938Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:38.813Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:38.833Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:39.824Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:46.719Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:46.750Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:47.175Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:37:49.773Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:37:49.797Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:37:50.531Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:38:03.802Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:38:03.817Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:38:04.288Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:38:25.230Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:38:25.278Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:38:25.647Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:38:28.175Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:38:28.198Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:38:28.635Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:38:34.911Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:38:34.931Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:38:35.512Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:39:36.349Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:39:36.370Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:39:36.851Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:39:42.128Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:39:42.144Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:39:42.590Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:39:47.997Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:39:48.012Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:39:49.275Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:39:52.252Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:39:52.311Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:39:52.719Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:02.066Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:02.107Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:02.616Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:09.184Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:09.202Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:09.598Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:13.669Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:13.685Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:14.149Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:16.914Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:16.941Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:17.363Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:26.654Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:26.679Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:27.102Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:33.644Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:33.672Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:34.105Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:38.076Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:38.123Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:38.602Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:44.022Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:44.041Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:44.501Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:45.552Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:45.567Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:45.989Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:40:49.031Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:40:49.050Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:40:49.564Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:41:31.070Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:41:31.085Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:41:31.948Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:41:38.754Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:41:38.782Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:41:39.173Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:41:43.594Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:41:43.714Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:41:44.828Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:41:44.843Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:41:45.590Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:41:47.152Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:41:47.182Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:41:49.017Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:41:49.040Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:41:49.568Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:42:30.108Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:42:30.126Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:42:30.543Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:42:33.239Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:42:33.271Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:42:33.662Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:42:39.734Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:42:39.763Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:42:40.228Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:42:47.992Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:42:48.017Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:42:48.895Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:43:03.248Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:43:03.272Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:43:04.276Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:43:08.370Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:43:08.394Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:43:08.849Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:43:14.409Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:43:14.452Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:43:16.247Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:45:29.467Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:45:29.480Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:45:31.132Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:45:38.665Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:45:38.683Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:45:39.110Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:45:46.035Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:45:46.101Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:45:46.533Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:46:13.082Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:46:13.098Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:46:13.603Z"}
+{"level":"info","message":"Processed post creation completed for post","service":"post-service","timestamp":"2025-08-03T10:46:27.087Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:46:27.096Z"}
+{"_message":"Search validation failed","errors":{"createdAt":{"kind":"required","message":"Path `createdAt` is required.","name":"ValidatorError","path":"createdAt","properties":{"message":"Path `createdAt` is required.","path":"createdAt","type":"required"}}},"level":"error","message":"Error in created post  Search validation failed: createdAt: Path `createdAt` is required.","service":"post-service","stack":"ValidationError: Search validation failed: createdAt: Path `createdAt` is required.\n    at Document.invalidate (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\document.js:3358:32)\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\document.js:3119:17\n    at C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-08-03T10:46:27.101Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:47:13.367Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:47:13.385Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:47:13.849Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:47:18.307Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:47:18.331Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:47:19.111Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:47:37.928Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:47:37.947Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:47:38.691Z"}
+{"level":"info","message":"Processed post creation completed for post","service":"post-service","timestamp":"2025-08-03T10:47:47.559Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:47:47.568Z"}
+{"level":"error","message":"Error in created post  logger.inf is not a function","service":"post-service","stack":"TypeError: logger.inf is not a function\n    at createPostInSearchEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:22:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-03T10:47:47.630Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:48:00.589Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:48:00.607Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:48:01.028Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:48:02.062Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:48:02.080Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:48:02.497Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:48:06.959Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:48:06.980Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:48:07.534Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:48:17.659Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:48:17.696Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:48:18.124Z"}
+{"level":"info","message":"Processed post creation completed for post","service":"post-service","timestamp":"2025-08-03T10:48:28.892Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:48:28.899Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T10:48:28.953Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:49:45.695Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:49:45.709Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:49:46.193Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:49:50.286Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:49:50.310Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:49:50.806Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:50:17.412Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:50:17.434Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:50:17.928Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:50:25.998Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:50:26.018Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:50:26.762Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:50:43.697Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:50:43.713Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:50:44.169Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:50:50.828Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:50:50.852Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:51:02.805Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:51:02.823Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:51:03.291Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T10:51:10.853Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:51:10.862Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post in search  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T10:51:10.929Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:52:14.176Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:52:14.205Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:52:18.789Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:52:18.825Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:52:19.413Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:52:34.920Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:52:34.951Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:52:35.571Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T10:52:40.010Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:52:40.015Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post in search  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T10:52:40.050Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:54:19.825Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:54:19.850Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:54:20.257Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T10:54:27.148Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:54:27.155Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post in search  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T10:54:27.198Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:57:32.051Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:57:32.076Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T10:57:32.896Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:58:47.054Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:58:47.069Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:59:11.976Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:59:11.992Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T10:59:32.486Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T10:59:32.501Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T10:59:41.943Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T10:59:41.948Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post in search  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T10:59:42.058Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:01:21.048Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:01:21.066Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:01:27.915Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:01:27.929Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:01:48.904Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:01:48.923Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T11:02:02.887Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T11:02:02.897Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post in search  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T11:02:02.961Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:05:18.929Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:05:18.947Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:05:46.772Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:05:46.794Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:05:50.863Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:05:50.943Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:05:57.243Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:05:57.282Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:06:01.590Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:06:01.605Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:06:03.562Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:06:03.587Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:06:06.762Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:06:06.798Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:06:29.916Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:06:29.936Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T11:06:39.318Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T11:06:39.327Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"687e411ae6d3c2e5b2158eb7"},"level":"error","message":"Error in created post in search  E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }","service":"post-service","stack":"MongoServerError: E11000 duplicate key error collection: search-service.searches index: userId_1 dup key: { userId: \"687e411ae6d3c2e5b2158eb7\" }\n    at InsertOneOperation.execute (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-03T11:06:39.379Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:07:06.308Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:07:06.323Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:07:40.065Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:07:40.080Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:08:30.275Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:08:30.290Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:08:30.792Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:09:20.492Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:09:20.512Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:09:21.006Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:09:23.717Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:09:23.751Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:09:25.970Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:09:25.984Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:09:26.544Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:10:26.696Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:10:26.729Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:10:27.282Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:10:31.086Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:10:31.113Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:10:32.172Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:10:36.267Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:10:36.290Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:10:36.832Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:10:43.376Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:10:43.393Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:10:43.913Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-03T11:11:04.108Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-03T11:11:04.127Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-03T11:11:05.621Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T11:11:21.705Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T11:11:21.712Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '688f43d93f9ff8436a52ea34',\n  userId: '687e411ae6d3c2e5b2158eb7',\n  content: 'the post is create now 33300 ',\n  _id: new ObjectId('688f43d98cb0db03f532b964'),\n  createdAt: 2025-08-03T11:11:21.716Z,\n  updatedAt: 2025-08-03T11:11:21.716Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-03T11:11:21.771Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-03T12:33:53.757Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-03T12:33:53.763Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '688f57313f9ff8436a52ea36',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 33300 ',\n  _id: new ObjectId('688f57318cb0db03f532b966'),\n  createdAt: 2025-08-03T12:33:53.765Z,\n  updatedAt: 2025-08-03T12:33:53.765Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-03T12:33:53.828Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:04:46.109Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:04:46.127Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:04:46.595Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:04:48.141Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:04:48.157Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:04:48.972Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:05:05.149Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:05:05.164Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:05:07.280Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:05:08.436Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:05:08.451Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:05:10.858Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:05:10.873Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:05:12.428Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:07:51.486Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:07:51.525Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:07:53.843Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-04T05:09:35.027Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-04T05:09:35.038Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6890408e2f7d3c808e5cf60c',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  _id: new ObjectId('6890408f2ace79030313760d'),\n  createdAt: 2025-08-04T05:09:35.043Z,\n  updatedAt: 2025-08-04T05:09:35.043Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-04T05:09:35.117Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:12:31.242Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:12:31.258Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:12:32.202Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:12:42.669Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:12:42.684Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:12:44.794Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:12:44.849Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:12:46.864Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:12:51.766Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:12:51.813Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:12:52.311Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:05.760Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:05.775Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:06.589Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:22.186Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:22.210Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:23.893Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:23.927Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:24.753Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:31.999Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:32.016Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:33.182Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:36.117Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:36.130Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:37.069Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:39.039Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:39.069Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:39.479Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:41.390Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:41.407Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:41.979Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:45.506Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:45.526Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:46.582Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:13:49.657Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:13:49.678Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:13:50.062Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:17:50.999Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:17:51.013Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:17:51.996Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-04T05:20:10.501Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-04T05:20:10.507Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6890430a2f7d3c808e5cf610',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  _id: new ObjectId('6890430a0be03d6214ab7828'),\n  createdAt: 2025-08-04T05:20:10.510Z,\n  updatedAt: 2025-08-04T05:20:10.510Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-04T05:20:10.557Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:22:25.079Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:22:25.096Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:22:25.745Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:22:32.151Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:22:32.171Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:22:32.597Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:22:39.046Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:22:39.064Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:22:39.491Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:23:05.269Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:23:05.289Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:23:05.702Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:37:30.411Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:37:30.425Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:37:31.245Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:38:08.715Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:38:12.041Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:38:12.079Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:38:12.777Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:38:15.917Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:38:15.937Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:38:35.277Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:38:35.309Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:38:38.019Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:38:38.034Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:01.568Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:39:01.583Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:08.162Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:39:08.179Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:16.956Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:39:16.998Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:19.353Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:39:19.369Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:25.519Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:35.174Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:39:35.191Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:39:55.386Z"}
+{"level":"error","message":"Failed to connect server","service":"post-service","timestamp":"2025-08-04T05:39:55.405Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:40:08.864Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:40:08.909Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-04T05:40:16.654Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-04T05:40:16.679Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-04T05:40:17.752Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-04T05:40:35.466Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-04T05:40:35.473Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '689047d3744a7e5c6aaef2d3',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  _id: new ObjectId('689047d3e10f88b339383a75'),\n  createdAt: 2025-08-04T05:40:35.477Z,\n  updatedAt: 2025-08-04T05:40:35.477Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-04T05:40:35.537Z"}
+{"level":"info","message":"Processed searcg deleted completed for postId","service":"post-service","timestamp":"2025-08-05T07:45:42.487Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"post-service","timestamp":"2025-08-05T07:45:42.493Z"}
+{"kind":"ObjectId","level":"error","message":"Error in deleted post in search  Cast to ObjectId failed for value \"{ postId: '689047d3744a7e5c6aaef2d3' }\" (type Object) at path \"_id\" for model \"Search\"","path":"_id","reason":{},"service":"post-service","stack":"CastError: Cast to ObjectId failed for value \"{ postId: '689047d3744a7e5c6aaef2d3' }\" (type Object) at path \"_id\" for model \"Search\"\n    at SchemaObjectId.cast (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\schemaType.js:1258:12)\n    at SchemaType.castForQuery (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\schemaType.js:1680:17)\n    at cast (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\cast.js:319:34)\n    at Query.cast (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\query.js:2351:10)\n    at model.Query._findOneAndDelete (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\query.js:3593:8)\n    at model.Query.exec (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\mongoose\\lib\\query.js:4604:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async deletePostInSearchEventHandler (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\eventHandlers\\postEvents\\post-event-handler.js:36:20)","stringValue":"\"{ postId: '689047d3744a7e5c6aaef2d3' }\"","timestamp":"2025-08-05T07:45:42.502Z","value":{"postId":"689047d3744a7e5c6aaef2d3"},"valueType":"Object"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T07:48:07.546Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T07:48:07.585Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T07:48:09.312Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T07:48:39.165Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T07:48:39.209Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T07:48:40.471Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T07:48:50.147Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T07:48:50.185Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T07:48:51.015Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:49:20.541Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:49:20.545Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b780744a7e5c6aaef2d8',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  _id: new ObjectId('6891b780b475cc25d9a8e419'),\n  createdAt: 2025-08-05T07:49:20.548Z,\n  updatedAt: 2025-08-05T07:49:20.548Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:49:20.595Z"}
+{"level":"info","message":"Processed searcg deleted completed for postId","service":"post-service","timestamp":"2025-08-05T07:49:28.236Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"post-service","timestamp":"2025-08-05T07:49:28.237Z"}
+{"level":"info","message":"post deleted in search collection {\n  _id: new ObjectId('6891b780b475cc25d9a8e419'),\n  postId: '6891b780744a7e5c6aaef2d8',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  createdAt: 2025-08-05T07:49:20.548Z,\n  updatedAt: 2025-08-05T07:49:20.548Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:49:28.292Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:49:57.380Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:49:57.384Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b7a5744a7e5c6aaef2db',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  _id: new ObjectId('6891b7a5b475cc25d9a8e41c'),\n  createdAt: 2025-08-05T07:49:57.385Z,\n  updatedAt: 2025-08-05T07:49:57.385Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:49:57.432Z"}
+{"level":"info","message":"Processed searcg deleted completed for postId","service":"post-service","timestamp":"2025-08-05T07:51:09.348Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"post-service","timestamp":"2025-08-05T07:51:09.348Z"}
+{"level":"info","message":"post deleted in search collection {\n  _id: new ObjectId('6891b7a5b475cc25d9a8e41c'),\n  postId: '6891b7a5744a7e5c6aaef2db',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 22 ',\n  createdAt: 2025-08-05T07:49:57.385Z,\n  updatedAt: 2025-08-05T07:49:57.385Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:51:09.399Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:55:13.809Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:55:13.809Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b8e1744a7e5c6aaef2de',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 11 ',\n  _id: new ObjectId('6891b8e1b475cc25d9a8e41f'),\n  createdAt: 2025-08-05T07:55:13.811Z,\n  updatedAt: 2025-08-05T07:55:13.811Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:55:13.854Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:55:17.264Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:55:17.265Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b8e5744a7e5c6aaef2e0',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create now 33 ',\n  _id: new ObjectId('6891b8e5b475cc25d9a8e421'),\n  createdAt: 2025-08-05T07:55:17.266Z,\n  updatedAt: 2025-08-05T07:55:17.266Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:55:17.310Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:55:22.355Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:55:22.355Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b8ea744a7e5c6aaef2e2',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create 11 now 33 ',\n  _id: new ObjectId('6891b8eab475cc25d9a8e423'),\n  createdAt: 2025-08-05T07:55:22.356Z,\n  updatedAt: 2025-08-05T07:55:22.356Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:55:22.394Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:55:25.735Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:55:25.736Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b8ed744a7e5c6aaef2e4',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create 11 now 44 ',\n  _id: new ObjectId('6891b8edb475cc25d9a8e425'),\n  createdAt: 2025-08-05T07:55:25.737Z,\n  updatedAt: 2025-08-05T07:55:25.737Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:55:25.788Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:55:29.305Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:55:29.307Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b8f1744a7e5c6aaef2e6',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create 11 now 55 ',\n  _id: new ObjectId('6891b8f1b475cc25d9a8e427'),\n  createdAt: 2025-08-05T07:55:29.308Z,\n  updatedAt: 2025-08-05T07:55:29.308Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:55:29.344Z"}
+{"level":"info","message":"Processed searcg creation completed for post","service":"post-service","timestamp":"2025-08-05T07:55:34.705Z"}
+{"level":"info","message":"Subscribed event :post.created","service":"post-service","timestamp":"2025-08-05T07:55:34.706Z"}
+{"level":"info","message":"post added in search collection {\n  postId: '6891b8f6744a7e5c6aaef2e8',\n  userId: '688f570fda2a649b981fc871',\n  content: 'the post is create 22 now 55 ',\n  _id: new ObjectId('6891b8f6b475cc25d9a8e429'),\n  createdAt: 2025-08-05T07:55:34.706Z,\n  updatedAt: 2025-08-05T07:55:34.706Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-08-05T07:55:34.756Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T07:58:36.157Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T07:58:36.186Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T07:58:37.334Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T07:58:43.872Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T07:58:43.909Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T07:58:45.322Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T07:59:42.361Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T07:59:42.392Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T07:59:43.085Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:00:00.697Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:00:00.722Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:00:02.452Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:07:16.029Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:07:16.058Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:07:16.702Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:21:16.485Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:21:16.516Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:21:17.201Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:21:19.477Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:21:19.505Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:21:20.356Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:21:23.598Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:21:23.623Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:21:24.460Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:22:33.391Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:22:33.422Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:22:35.689Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:22:53.935Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:22:53.967Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:22:55.810Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:23:00.001Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:23:00.097Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:23:01.066Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:23:08.424Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:23:08.449Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:23:09.858Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:23:24.855Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:23:24.887Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:23:25.817Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post","service":"post-service","timestamp":"2025-08-05T08:27:05.716Z"}
+{"level":"info","message":"request body undefined","service":"post-service","timestamp":"2025-08-05T08:27:05.716Z"}
+{"level":"warn","message":"Access attempted without user ID","service":"post-service","timestamp":"2025-08-05T08:27:05.717Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:27:05.719Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T08:27:05.723Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:250:15)\n    at searchPost (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\controllers\\searchController.js:26:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"post-service","timestamp":"2025-08-05T08:27:05.725Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post","service":"post-service","timestamp":"2025-08-05T08:27:41.206Z"}
+{"level":"info","message":"request body undefined","service":"post-service","timestamp":"2025-08-05T08:27:41.207Z"}
+{"level":"warn","message":"Access attempted without user ID","service":"post-service","timestamp":"2025-08-05T08:27:41.207Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:27:41.208Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T08:27:41.208Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:250:15)\n    at searchPost (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\controllers\\searchController.js:26:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"post-service","timestamp":"2025-08-05T08:27:41.209Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post","service":"post-service","timestamp":"2025-08-05T08:27:42.632Z"}
+{"level":"info","message":"request body undefined","service":"post-service","timestamp":"2025-08-05T08:27:42.632Z"}
+{"level":"warn","message":"Access attempted without user ID","service":"post-service","timestamp":"2025-08-05T08:27:42.633Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:27:42.633Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T08:27:42.634Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\node_modules\\express\\lib\\response.js:250:15)\n    at searchPost (C:\\Users\\sardar.ali\\Desktop\\Projects\\Social-media-app\\search-service\\src\\controllers\\searchController.js:26:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"post-service","timestamp":"2025-08-05T08:27:42.634Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:30:58.718Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:30:58.744Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:31:03.655Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:47:43.332Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:47:43.373Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:47:44.707Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=22","service":"post-service","timestamp":"2025-08-05T08:48:11.629Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:48:11.630Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:48:11.631Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T08:48:11.640Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:49:04.157Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:49:04.181Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:49:04.651Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:49:07.836Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:49:07.864Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:49:08.276Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:49:11.846Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:49:11.876Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:49:12.286Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=22","service":"post-service","timestamp":"2025-08-05T08:49:13.511Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:49:13.512Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:49:13.513Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T08:49:13.516Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:49:32.659Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:49:32.689Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:49:34.102Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:49:34.124Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:49:34.526Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=22","service":"post-service","timestamp":"2025-08-05T08:51:18.046Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:51:18.047Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:51:18.048Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T08:51:18.052Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:52:17.959Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:52:18.000Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:52:19.058Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:52:35.937Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:52:35.965Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:52:37.402Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=22","service":"post-service","timestamp":"2025-08-05T08:52:38.986Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:52:38.987Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:52:38.989Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=create","service":"post-service","timestamp":"2025-08-05T08:54:32.320Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:54:32.320Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:54:32.321Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:57:05.658Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:57:05.721Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:57:06.942Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:57:15.786Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:57:15.822Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:57:18.061Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:57:19.780Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:57:19.839Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T08:57:32.214Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T08:57:32.238Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T08:57:33.452Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=create","service":"post-service","timestamp":"2025-08-05T08:59:27.362Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:59:27.363Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:59:27.365Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=11","service":"post-service","timestamp":"2025-08-05T08:59:56.949Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T08:59:56.949Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T08:59:56.950Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=44","service":"post-service","timestamp":"2025-08-05T09:00:18.585Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T09:00:18.586Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T09:00:18.586Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=22","service":"post-service","timestamp":"2025-08-05T09:00:24.826Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T09:00:24.827Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T09:00:24.829Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=33","service":"post-service","timestamp":"2025-08-05T09:00:34.366Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T09:00:34.366Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T09:00:34.366Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=now","service":"post-service","timestamp":"2025-08-05T09:00:54.604Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T09:00:54.605Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T09:00:54.605Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:11:47.266Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:11:47.294Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:11:49.560Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:12:19.662Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:12:19.687Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:12:21.383Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:12:21.425Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:12:21.816Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:12:58.752Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:12:58.782Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:12:59.290Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:01.652Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:01.679Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:03.221Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:06.910Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:06.937Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:08.187Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:11.021Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:11.048Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:12.378Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:13.949Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:13.986Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:15.286Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:17.746Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:17.772Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:18.822Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:28.516Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:28.541Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:28.981Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:36.645Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:36.678Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:37.129Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:40.061Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:40.084Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:41.042Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:46.941Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:46.967Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:47.840Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:13:49.250Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:13:49.274Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:13:49.700Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:14:18.386Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:14:18.407Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:14:19.582Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:14:28.781Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:14:28.818Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:14:30.011Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:14:46.656Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:14:46.682Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:14:47.759Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:14:54.737Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:14:54.766Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:14:55.588Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:01.517Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:01.571Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:03.256Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:03.280Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:03.719Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:14.417Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:14.441Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:15.255Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:22.290Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:22.311Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:24.115Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:31.846Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:31.870Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:32.868Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:41.257Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:41.282Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:42.383Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:46.987Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:47.016Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:47.540Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:54.158Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:54.206Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:54.755Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:15:56.053Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:15:56.095Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:15:56.503Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:16:04.208Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:16:04.248Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:16:04.839Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:16:12.610Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:16:12.650Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:16:14.229Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:16:15.855Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:16:15.888Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:16:16.318Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:16:20.197Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:16:20.233Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:16:20.942Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:16:23.512Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:16:23.552Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:16:24.632Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:16:40.274Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:16:40.323Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:17:16.324Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:17:16.368Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:17:17.257Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=now","service":"post-service","timestamp":"2025-08-05T09:17:18.783Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T09:17:18.784Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:18:13.083Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:18:13.108Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:18:14.339Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:18:14.413Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:18:16.924Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:18:16.954Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:18:17.434Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:18:25.272Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:18:25.297Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:18:26.032Z"}
+{"level":"info","message":"connected to rabbitmq","service":"post-service","timestamp":"2025-08-05T09:18:32.481Z"}
+{"level":"info","message":"search service Server is running on 3004","service":"post-service","timestamp":"2025-08-05T09:18:32.524Z"}
+{"level":"info","message":"Recieved GET request to /api/search/post?query=now","service":"post-service","timestamp":"2025-08-05T09:18:33.010Z"}
+{"level":"info","message":"request body [object Object]","service":"post-service","timestamp":"2025-08-05T09:18:33.013Z"}
+{"level":"info","message":"searching end point hit","service":"post-service","timestamp":"2025-08-05T09:18:33.016Z"}
+{"level":"info","message":"Connected to mongodb!","service":"post-service","timestamp":"2025-08-05T09:18:33.470Z"}
+{"level":"error","message":"Error in searching post!","service":"post-service","timestamp":"2025-08-05T09:18:33.735Z"}

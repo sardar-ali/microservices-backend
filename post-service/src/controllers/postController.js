@@ -22,6 +22,10 @@ const createPost = async (req, res) => {
     }
 
     await inValidateCache(req, "posts:*"); // invalidate redis cache
+    await publishEvent("post.created", {
+      post: createdPost,
+      userId: req.user._id,
+    }); //create Rabbitmq event to add post in search collection
     logger.info("post created successfully", createdPost);
     return res.status(201).json({
       success: true,
@@ -183,7 +187,6 @@ const deletePost = async (req, res) => {
         message: "Post not found",
       });
     }
-    console.log("post details console ::", post, req.user);
     // logger.info("post deleted successfully", post);
     // publish event on delete post using rabbitmq
     await publishEvent("post.deleted", {

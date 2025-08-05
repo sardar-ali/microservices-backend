@@ -1,11 +1,10 @@
 const Media = require("../../models/Media");
-const { deleteMediaFromCloudinary } = require("../../utils/cloudinary");
 const logger = require("../../utils/logger");
+const { deleteMediaFromCloudinary } = require("../../utils/cloudinary");
 
 const postDeleteEventHandler = async (event) => {
   try {
     const { postId, userId, mediaIds } = event;
-    console.log({ postId, mediaIds, userId });
     const mediaToDeleting = await Media.find({ _id: { $in: mediaIds } });
     for (const media of mediaToDeleting) {
       if (mediaIds) {

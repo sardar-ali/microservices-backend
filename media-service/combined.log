@@ -572,3 +572,37 @@
 {"level":"info","message":"uploading to cloudinary start","service":"media-service","timestamp":"2025-08-01T10:32:14.497Z"}
 {"level":"info","message":"Cloudinary upload successfully. public id:g233q9mht4wdnl6jt3gw","service":"media-service","timestamp":"2025-08-01T10:32:24.702Z"}
 {"level":"info","message":"save media in db successfully","service":"media-service","timestamp":"2025-08-01T10:32:25.239Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-01T10:53:22.429Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-01T10:53:22.455Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-01T10:53:23.344Z"}
+{"level":"info","message":"Recieved GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-01T10:53:46.922Z"}
+{"level":"info","message":"request body undefined","service":"media-service","timestamp":"2025-08-01T10:53:46.923Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"media-service","timestamp":"2025-08-01T10:54:24.733Z"}
+{"0":"g","1":"2","10":"w","11":"d","12":"n","13":"l","14":"6","15":"j","16":"t","17":"3","18":"g","19":"w","2":"3","3":"3","4":"q","5":"9","6":"m","7":"h","8":"t","9":"4","level":"info","message":"media deleted successfully from cloudinary","service":"media-service","timestamp":"2025-08-01T10:54:26.008Z"}
+{"level":"info","message":"Deleted media 688c97b8879fc74f3647fbbc associated with this deleted post 688c9cd01b8c3ef4795b5a87","service":"media-service","timestamp":"2025-08-01T10:54:26.110Z"}
+{"level":"info","message":"Processed deletion completed for post id 688c9cd01b8c3ef4795b5a87","service":"media-service","timestamp":"2025-08-01T10:54:26.112Z"}
+{"level":"info","message":"Recieved GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-01T10:54:33.535Z"}
+{"level":"info","message":"request body undefined","service":"media-service","timestamp":"2025-08-01T10:54:33.535Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-01T10:56:12.839Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-01T10:56:12.855Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-01T10:56:13.895Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-01T10:56:17.979Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-01T10:56:18.027Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-01T10:56:18.641Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-03T10:12:55.033Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-03T10:12:55.053Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-03T10:12:55.534Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-04T05:08:43.103Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-04T05:08:43.117Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-04T05:08:44.029Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"media-service","timestamp":"2025-08-04T05:30:25.488Z"}
+{"level":"info","message":"Processed deletion completed for post id 6890430a2f7d3c808e5cf610","service":"media-service","timestamp":"2025-08-04T05:30:25.534Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"media-service","timestamp":"2025-08-05T07:45:42.489Z"}
+{"level":"info","message":"Processed deletion completed for post id 689047d3744a7e5c6aaef2d3","service":"media-service","timestamp":"2025-08-05T07:45:42.841Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"media-service","timestamp":"2025-08-05T07:49:28.237Z"}
+{"level":"info","message":"Processed deletion completed for post id 6891b780744a7e5c6aaef2d8","service":"media-service","timestamp":"2025-08-05T07:49:28.272Z"}
+{"level":"info","message":"Subscribed event :post.deleted","service":"media-service","timestamp":"2025-08-05T07:51:09.348Z"}
+{"level":"info","message":"Processed deletion completed for post id 6891b7a5744a7e5c6aaef2db","service":"media-service","timestamp":"2025-08-05T07:51:09.397Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-05T08:07:09.499Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-05T08:07:09.513Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-05T08:07:10.173Z"}
