@@ -606,3 +606,6 @@
 {"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-05T08:07:09.499Z"}
 {"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-05T08:07:09.513Z"}
 {"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-05T08:07:10.173Z"}
+{"level":"info","message":"connected to rabbitmq","service":"media-service","timestamp":"2025-08-05T08:47:33.687Z"}
+{"level":"info","message":"media service Server is running on 3003","service":"media-service","timestamp":"2025-08-05T08:47:33.705Z"}
+{"level":"info","message":"Connected to mongodb!","service":"media-service","timestamp":"2025-08-05T08:47:34.913Z"}

@@ -15,7 +15,6 @@ const searchPost = async (req, res) => {
         posts: cachedPosts,
       });
     }
-    console.log("query::", { query });
     const results = await Search.find(
       {
         $text: { $search: query },

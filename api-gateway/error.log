@@ -79,3 +79,5 @@
 {"level":"error","message":"Invalid Token!","service":"api-gateway","timestamp":"2025-08-01T08:42:28.246Z"}
 {"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-08-01T08:42:35.465Z"}
 {"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-08-04T05:08:25.405Z"}
+{"level":"error","message":"Proxy error :, AggregateError","service":"api-gateway","timestamp":"2025-08-05T08:52:17.933Z"}
+{"level":"error","message":"Proxy error :, Error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-05T09:18:12.013Z"}

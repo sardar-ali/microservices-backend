@@ -570,3 +570,5 @@
 {"level":"info","message":"User login successfully","service":"identity-service","timestamp":"2025-08-03T12:33:30.129Z"}
 {"level":"info","message":"Server is running on 3001","service":"identity-service","timestamp":"2025-08-05T08:06:49.221Z"}
 {"level":"info","message":"Connected to mongodb!","service":"identity-service","timestamp":"2025-08-05T08:06:50.029Z"}
+{"level":"info","message":"Server is running on 3001","service":"identity-service","timestamp":"2025-08-05T08:47:12.369Z"}
+{"level":"info","message":"Connected to mongodb!","service":"identity-service","timestamp":"2025-08-05T08:47:13.267Z"}
